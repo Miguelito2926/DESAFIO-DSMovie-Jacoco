@@ -46,7 +46,6 @@ public class MovieServiceTests {
 
 	@BeforeEach
 	void setUp() {
-		MockitoAnnotations.openMocks(this);
 
 		existingId = 1L;
 		nonExistingId = 1000L;
